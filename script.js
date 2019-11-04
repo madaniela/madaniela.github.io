@@ -26,7 +26,7 @@ function randomChoice (choices) {
   return choices[index]
 }
 
-function mouseClicked () {
+function touchStarted () {
   let sideLength = randomNumber(maxSize)
   fill(randomChoice(colors))
   let shapeType = randomNumber(numShapes)
@@ -39,6 +39,7 @@ function mouseClicked () {
       mouseX + (0.5 * sideLength), mouseY - sideLength)
   }
 }
+
 
 window.onresize = () => {
   resizeCanvas(window.innerWidth, document.body.offsetHeight)
