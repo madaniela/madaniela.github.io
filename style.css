@@ -79,6 +79,14 @@ canvas {
   margin: 60px auto;
 }
 
+.image {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 3px;
+    border:1px solid pink;
+}
+
+
 .rainbow-letters {
   margin-bottom: 30px;
 }
